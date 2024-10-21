@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="proglamlama&#246;devi2"/>
+        <attribute name="authors" value="cemalettin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 12:41:08 &#214;S"/>
+        <attribute name="created" value="Y2VtYWxldHRpbjtMQVBUT1AtSlVHMUlWQVA7MjAyNC0xMC0yMTsxMjozMToxOCDDllM7MzU2Ng=="/>
+        <attribute name="edited" value="Y2VtYWxldHRpbjtMQVBUT1AtSlVHMUlWQVA7MjAyNC0xMC0yMTsxMjo0MTowOCDDllM7MTszNjc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="silgiadedi" type="Integer" array="False" size=""/>
+            <declare name="defteradedi" type="Integer" array="False" size=""/>
+            <declare name="kalemadedi" type="Integer" array="False" size=""/>
+            <declare name="silgifiyad&#305;" type="Integer" array="False" size=""/>
+            <declare name="defterfiyad&#305;" type="Integer" array="False" size=""/>
+            <declare name="kalemfiyad&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;silgifiyad&#305;&quot;" newline="True"/>
+            <input variable="silgifiyad&#305;"/>
+            <output expression="&quot;defterfiyad&#305;&quot;" newline="True"/>
+            <input variable="defterfiyad&#305;"/>
+            <output expression="&quot;kalemfiyad&#305;&quot;" newline="True"/>
+            <input variable="kalemfiyad&#305;"/>
+            <output expression="&quot;defteradedi&quot;" newline="True"/>
+            <input variable="defteradedi"/>
+            <output expression="&quot;kalemadedi&quot;" newline="True"/>
+            <input variable="kalemadedi"/>
+            <output expression="&quot;silgiadedi&quot;" newline="True"/>
+            <input variable="silgiadedi"/>
+            <output expression="(defterfiyad&#305;*defteradedi+kalemfiyad&#305;*kalemadedi+silgiadedi*silgifiyad&#305;)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

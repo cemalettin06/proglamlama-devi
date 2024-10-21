@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="proglamlama &#246;dev"/>
+        <attribute name="authors" value="cemalettin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 12:02:56 &#214;S"/>
+        <attribute name="created" value="Y2VtYWxldHRpbjtMQVBUT1AtSlVHMUlWQVA7MjAyNC0xMC0yMTsxMTo1NTo0NSDDlsOWOzM3MDI="/>
+        <attribute name="edited" value="Y2VtYWxldHRpbjtMQVBUT1AtSlVHMUlWQVA7MjAyNC0xMC0yMTsxMjowMjo1NiDDllM7MjszNjc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mesaj" type="String" array="False" size=""/>
+            <declare name="say&#305;, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;mesaj ne &quot;" newline="True"/>
+            <input variable="mesaj"/>
+            <output expression="&quot;say&#305; adedi&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <for variable="i" start="1" end="say&#305;" direction="inc" step="1">
+                <output expression="mesaj" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

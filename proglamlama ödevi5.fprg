@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="proglamlama &#246;devi5"/>
+        <attribute name="authors" value="cemalettin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 05:33:13 &#214;S"/>
+        <attribute name="created" value="Y2VtYWxldHRpbjtMQVBUT1AtSlVHMUlWQVA7MjAyNC0xMC0yMTswNToyODozOCDDllM7MzU3Ng=="/>
+        <attribute name="edited" value="Y2VtYWxldHRpbjtMQVBUT1AtSlVHMUlWQVA7MjAyNC0xMC0yMTswNTozMzoxMyDDllM7MTszNjcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <assign variable="v" expression="0"/>
+            <declare name="f" type="Integer" array="False" size=""/>
+            <assign variable="f" expression="0"/>
+            <output expression="&quot;v&quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="v" expression="v*0.4"/>
+            <assign variable="f" expression="f*0.6"/>
+            <declare name="sonu&#231;" type="Integer" array="False" size=""/>
+            <assign variable="sonu&#231;" expression="v+f"/>
+            <declare name="ge&#231;ti" type="Integer" array="False" size=""/>
+            <declare name="kald&#305;" type="Integer" array="False" size=""/>
+            <if expression="sonu&#231;&gt;=60">
+                <then>
+                    <output expression="&quot;ge&#231;ti&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;kald&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
